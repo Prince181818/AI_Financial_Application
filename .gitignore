@@ -1,0 +1,62 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+.cursor/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Model files and datasets
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+data/raw/
+models/
+
+# Experiment tracking
+wandb/
+mlruns/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3

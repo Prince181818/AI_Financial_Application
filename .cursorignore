@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.git/
+wandb/
+mlruns/
+data/raw/
+models/
+*.parquet
+*.csv
+*.sqlite
+*.db
